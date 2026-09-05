@@ -1,0 +1,113 @@
+header{
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+#hero{
+    height: 400px;
+    background-color: lightblue;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+button{
+    background-color: gold;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+}
+#hero h1{
+    font-size: 50px;
+    margin: 20px;
+
+}
+#hero h2{
+    font-style: italic;
+}
+#services{
+    text-align: center;
+    padding: 50px;
+}
+.services-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.services-box{
+    width: 200px;
+    margin-top: 20px;
+    text-align: center;
+}
+#hero{
+    height: 400px;
+    background-image: url(images/download.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+.circle{
+    width: 80px;
+    height: 80px;
+    background-color: gold;
+    border-radius: 50%;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.services-box p{
+    color: gray;
+    font-size: 14px;
+}
+.portfolio-box img{
+    width: 250px;
+    height: 180px;
+}
+.portfolio-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+#portfolio h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    padding: 50px;
+}
+#services h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.portfolio-box{
+    text-align: center;
+    background: white;
+    padding: 15px;
+}
+
+#team{
+    text-align: center;
+    padding: 50px;
+}
+
+.team-container{
+display: flex;
+    justify-content:center;
+    gap: 50px;
+}
+.team-box img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
